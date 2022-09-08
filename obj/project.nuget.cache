@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSnThyXEfE1LpA11RKXwXSOQ2cu6mdrxpRtx7VSK9lk9tPrKfLbn59YSThFB72yBbnc7r/E9QobJs0F5Y5y7Ew==",
+  "dgSpecHash": "t8liiHiERCMPLvf9q5Tdyns8fDvh2APA2RHFsTU5Ohw6gw+19bh3xsKDuucRnFmAhLJyvMM+Cy2mTO/eA/IUdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj",
+  "projectFilePath": "C:\\Users\\etec\\Documents\\GitHub\\Pokedex\\Pokedex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
