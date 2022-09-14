@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Pokedex.Models;
-using Pokedex.Data;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Pokedex.Data;
+using Pokedex.Models;
 
 namespace Pokedex.Controllers;
 
@@ -19,11 +19,11 @@ public class HomeController : Controller
     }
 
     public IActionResult Index()
-    {   
+    {
         ViewData["Types"] = _context.Types.ToList();
         var pokemons = _context.Pokemons
-            .include(p => p.Types)
-            .ThenInclude(t => t.Types).ToList();
+            .Include(p => p.Types)
+            .ThenInclude(t => t.Type).ToList();
         return View(pokemons);
     }
 

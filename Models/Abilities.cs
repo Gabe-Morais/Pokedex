@@ -17,7 +17,5 @@ namespace Pokedex.Models
         public string Name { get; set; } = string.Empty;
 
         public ICollection<PokemonAbilities> PokemonsWithAbility { get; set; } = new List<PokemonAbilities>();
-
-
     }
 }

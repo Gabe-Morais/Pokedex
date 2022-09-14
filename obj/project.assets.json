@@ -652,19 +652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\etec\\.nuget\\packages\\": {}
+    "C:\\Users\\jose.gallo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\etec\\Documents\\GitHub\\Pokedex\\Pokedex.csproj",
+      "projectUniqueName": "Q:\\Professores\\Gallo\\2022\\2º DS\\PW\\Turma B\\Pokedex\\Pokedex.csproj",
       "projectName": "Pokedex",
-      "projectPath": "C:\\Users\\etec\\Documents\\GitHub\\Pokedex\\Pokedex.csproj",
-      "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\etec\\Documents\\GitHub\\Pokedex\\obj\\",
+      "projectPath": "Q:\\Professores\\Gallo\\2022\\2º DS\\PW\\Turma B\\Pokedex\\Pokedex.csproj",
+      "packagesPath": "C:\\Users\\jose.gallo\\.nuget\\packages\\",
+      "outputPath": "Q:\\Professores\\Gallo\\2022\\2º DS\\PW\\Turma B\\Pokedex\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jose.gallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

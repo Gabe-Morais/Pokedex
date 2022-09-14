@@ -1,6 +1,5 @@
-using Pokedex.Data;
 using Microsoft.EntityFrameworkCore;
-
+using Pokedex.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 string conn = builder.Configuration.GetConnectionString("DbConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(conn, ServerVersion.AutoDetect(conn))
 );
 
