@@ -1,4 +1,5 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -19,12 +20,12 @@
 <div class="album py-5 bg-light">
     <div class="container">
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
             @foreach (var pokemon in Model)
             {
                 <div class="col" onclick="GetInfo(@pokemon.Number)">
                     <div class="card shadow-sm cursor-pointer">
-                        <img src="@pokemon.Image" class="card-img-top" alt="@pokemon.name" />
+                        <img src="@pokemon.Image" class="card-img-top" alt="@pokemon.Name" />
 
                         <div class="card-body">
                             <p class="card-text mb-0">
@@ -54,9 +55,9 @@
 
 @section Scripts{
     <script>
-        function GetInfo(nubmer)
+        function GetInfo(number)
         {
-            window.location = '@Url.Action("Details", "Home")'
+            window.location = '@Url.Action("Details", "Home")' + '?Number=' + number;
         }
 
     </script>
